@@ -28,8 +28,12 @@ body {
     padding: 25px 0px;
 }
 
-.header .logo, .hero h1 {
+.header .logo, .hero h1, .hero button {
     color: #F9FAF8;
+}
+
+.header .logo {
+    font-size: 24px;
 }
 
 .header .links {
@@ -49,21 +53,32 @@ body {
 }
 
 .hero {
-    padding: 50px 0px;
+    padding: 50px 0;
+    gap: 100px;
 }
 
 .hero .hero-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
+}
+
+.hero button {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .hero h1 {
-    size: 48px;
+    font-size: 48px;
 }
 
 .hero p {
-    size: 18px;
+    font-size: 18px;
 }
 
 .hero img {
