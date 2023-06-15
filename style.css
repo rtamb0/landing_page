@@ -7,15 +7,15 @@
 .top {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.header .logo {
+.header .logo, .hero h1 {
     color: #F9FAF8;
 }
 
@@ -29,5 +29,31 @@
 
 .links a {
     text-decoration: none;
+}
+
+.links a, .hero p {
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    size: 48px;
+}
+
+.hero p {
+    size: 18px;
+}
+
+.hero img {
+    height: 400px;
 }
