@@ -87,10 +87,11 @@ body {
     flex-direction: column;
     padding: 100px 300px;
     gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content .heading {
-    align-self: center;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
@@ -98,6 +99,7 @@ body {
 
 .content-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -120,7 +122,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 600px;
+    padding: 100px 500px;
     gap: 10px;
     color: #1F2937;
 }
