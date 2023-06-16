@@ -44,7 +44,7 @@ body {
     text-decoration: none;
 }
 
-.links a, .hero p, .ads p {
+.links a, .hero p, .ads p, .copyright {
     color: #E5E7EB;
 }
 
@@ -142,6 +142,7 @@ body {
     padding: 100px 300px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .ads-container .ads {
@@ -150,6 +151,7 @@ body {
     justify-content: space-around;
     padding: 50px 0;
     border-radius: 8px;
+    flex-wrap: wrap;
 }
 
 .ads a {
@@ -163,4 +165,12 @@ body {
 .ads button {
     border-color: #E5E7EB;
     border-style: groove;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 300px;
 }
