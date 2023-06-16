@@ -12,7 +12,7 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #295e34;
     padding: 0 300px;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .hero button, .ads button {
     padding: 10px 30px;
-    background-color: #3882F6;
+    background-color: #9e2f2b;
     border-radius: 4px;
     border-style: none;
     font-weight: 700;
@@ -92,7 +92,7 @@ body {
 }
 
 .content .heading {
-    color: #1F2937;
+    color: #295e34;
     font-size: 36px;
     font-weight: bolder;
 }
@@ -113,7 +113,7 @@ body {
 
 .content-description img {
     height: 150px;
-    border-color: #3882F6;
+    border-color: #9e2f2b;
     border-style: groove;
     border-radius: 4px;
 }
@@ -124,7 +124,7 @@ body {
     flex-direction: column;
     padding: 100px 500px;
     gap: 10px;
-    color: #1F2937;
+    color: #295e34;
 }
 
 .quote-container .quote {
@@ -146,7 +146,7 @@ body {
 }
 
 .ads-container .ads {
-    background-color: #3882F6;
+    background-color: #9e2f2b;
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
@@ -168,7 +168,7 @@ body {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #295e34;
     display: flex;
     justify-content: center;
     padding: 50px 300px;
