@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-.header .logo, .hero h1, .hero button {
+.header .logo, .hero h1, .hero button, .ads button, .ads h3 {
     color: #F9FAF8;
 }
 
@@ -44,7 +44,7 @@ body {
     text-decoration: none;
 }
 
-.links a, .hero p {
+.links a, .hero p, .ads p {
     color: #E5E7EB;
 }
 
@@ -61,7 +61,7 @@ body {
     gap: 10px;
 }
 
-.hero button {
+.hero button, .ads button {
     padding: 10px 30px;
     background-color: #3882F6;
     border-radius: 4px;
@@ -136,4 +136,31 @@ body {
     align-self: flex-end;
     font-size: 24px;
     padding-right: 10px;
+}
+
+.ads-container {
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ads-container .ads {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    border-radius: 8px;
+}
+
+.ads a {
+    align-self: center;
+}
+
+.ads h3 {
+    font-size: 20px;
+}
+
+.ads button {
+    border-color: #E5E7EB;
+    border-style: groove;
 }
