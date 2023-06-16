@@ -153,6 +153,11 @@ body {
     border-radius: 8px;
 }
 
+.ads-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .ads a {
     align-self: center;
 }
