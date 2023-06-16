@@ -9,14 +9,11 @@ body {
     flex-direction: column;
 }
 
-.top, .content {
-    padding: 0 300px;
-}
-
 .top {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 0 300px;
 }
 
 .header {
@@ -88,16 +85,20 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    padding: 100px 300px;
+    gap: 100px;
 }
 
 .content .heading {
     align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .content-container {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .content-description {
@@ -105,8 +106,12 @@ body {
     flex-direction: column;
     text-align: center;
     width: 250px;
+    gap: 10px;
 }
 
 .content-description img {
     height: 150px;
+    border-color: #3882F6;
+    border-style: groove;
+    border-radius: 4px;
 }
