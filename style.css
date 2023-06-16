@@ -115,3 +115,23 @@ body {
     border-style: groove;
     border-radius: 4px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 600px;
+    gap: 10px;
+    color: #1F2937;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-container .credit {
+    align-self: flex-end;
+    font-size: 24px;
+    padding-right: 10px;
+}
