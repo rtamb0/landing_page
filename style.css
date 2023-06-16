@@ -88,22 +88,23 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
+}
+
+.content .heading {
+    align-self: center;
 }
 
 .content-container {
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly
 }
 
 .content-description {
     display: flex;
     flex-direction: column;
-}
-
-.content-description p {
-    width: 250px;
     text-align: center;
+    width: 250px;
 }
 
 .content-description img {
