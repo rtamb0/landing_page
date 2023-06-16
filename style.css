@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-.top {
+.top, .content {
     padding: 0 300px;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .header .logo {
     font-size: 24px;
-    flex: 0 0 370px;
+    flex: 0 0 520px;
 }
 
 .header .links {
@@ -84,5 +84,9 @@ body {
 }
 
 .hero img {
+    height: 400px;
+}
+
+.content img {
     height: 300px;
 }
