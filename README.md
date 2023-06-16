@@ -2,4 +2,4 @@
 My second project from TOP curriculum!
 
 Credit:
-Efrem Efre - Building in Venice
+Efrem Efre - For all of the images
