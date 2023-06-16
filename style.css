@@ -13,11 +13,6 @@ body {
     padding: 0 300px;
 }
 
-.header, .hero {
-    display: flex;
-    justify-content: space-between;
-}
-
 .top {
     display: flex;
     flex-direction: column;
@@ -26,6 +21,8 @@ body {
 
 .header {
     padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header .logo, .hero h1, .hero button {
@@ -55,6 +52,7 @@ body {
 }
 
 .hero {
+    display: flex;
     padding: 100px 0;
     gap: 100px;
 }
@@ -88,5 +86,5 @@ body {
 }
 
 .content img {
-    height: 300px;
+    height: 200px;
 }
