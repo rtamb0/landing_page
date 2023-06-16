@@ -105,8 +105,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 250px;
     gap: 10px;
+    flex: 0;
 }
 
 .content-description img {
