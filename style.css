@@ -99,9 +99,13 @@ body {
 .content-description {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.content img {
+.content-description p {
+    width: 250px;
+    text-align: center;
+}
+
+.content-description img {
     height: 150px;
 }
