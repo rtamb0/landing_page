@@ -151,7 +151,6 @@ body {
     justify-content: space-around;
     padding: 50px 0;
     border-radius: 8px;
-    flex-wrap: wrap;
 }
 
 .ads a {
@@ -167,10 +166,17 @@ body {
     border-style: groove;
 }
 
-
 .footer {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     padding: 50px 300px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.copyright {
+    flex-shrink: 0;
 }
