@@ -34,6 +34,7 @@ body {
 
 .header .logo {
     font-size: 24px;
+    flex: 0 0 370px;
 }
 
 .header .links {
@@ -42,6 +43,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 30px;
+    flex-shrink: 0;
 }
 
 .links a {
