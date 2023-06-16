@@ -154,11 +154,6 @@ body {
     flex-wrap: wrap;
 }
 
-.ads-text {
-    display: flex;
-    flex-direction: column;
-}
-
 .ads a {
     align-self: center;
 }
