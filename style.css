@@ -50,6 +50,7 @@ body {
     display: flex;
     padding: 100px 0;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hero .hero-description {
