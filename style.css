@@ -49,13 +49,14 @@ body {
 .hero {
     display: flex;
     padding: 100px 0;
+    gap: 20px;
 }
 
 .hero .hero-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 600px;
+    max-width: 900px;
     gap: 10px;
 }
 
