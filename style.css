@@ -132,8 +132,9 @@ body {
 
 .quotee {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex: 1;
+    justify-content: space-around;
+    max-width: 1500px;
 }
 
 .quote-container .quotee {
@@ -142,25 +143,26 @@ body {
 }
 
 .quote-container .credit {
+    margin-top: 50px;
     align-self: flex-end;
     font-size: 24px;
-    padding-right: 10px;
+ 
 }
 
 .extra-container {
-    padding: 100px 300px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0;
 }
 
 .extra-container .extra {
     background-color: #9e2f2b;
     display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+    padding: 50px 90px;
     border-radius: 8px;
-    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    max-width: 1500px;
 }
 
 .extra a {
@@ -180,7 +182,7 @@ body {
     background-color: #295e34;
     display: flex;
     justify-content: center;
-    padding: 50px 300px;
+    padding: 50px 0;
 }
 
 .footer-container {
