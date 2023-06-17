@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
 }
 
-.header .logo, .hero h1, .hero button, .ads button, .ads h3 {
+.header .logo, .hero h1, .hero button, .extra button, .extra h3 {
     color: #F9FAF8;
 }
 
@@ -42,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-.links a, .hero p, .ads p, .copyright {
+.links a, .hero p, .extra p, .copyright {
     color: #E5E7EB;
 }
 
@@ -61,7 +61,7 @@ body {
     gap: 10px;
 }
 
-.hero button, .ads button {
+.hero button, .extra button {
     padding: 10px 30px;
     background-color: #9e2f2b;
     border-radius: 4px;
@@ -147,14 +147,14 @@ body {
     padding-right: 10px;
 }
 
-.ads-container {
+.extra-container {
     padding: 100px 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.ads-container .ads {
+.extra-container .extra {
     background-color: #9e2f2b;
     display: flex;
     justify-content: space-around;
@@ -163,15 +163,15 @@ body {
     flex-wrap: wrap;
 }
 
-.ads a {
+.extra a {
     align-self: center;
 }
 
-.ads h3 {
+.extra h3 {
     font-size: 20px;
 }
 
-.ads button {
+.extra button {
     border-color: #E5E7EB;
     border-style: groove;
 }
