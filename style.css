@@ -125,13 +125,18 @@ body {
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    padding: 100px 500px;
-    gap: 10px;
+    justify-content: center;
+    padding: 100px 0;
     color: #295e34;
 }
 
-.quote-container .quote {
+.quotee {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-container .quotee {
     font-size: 36px;
     font-weight: 100;
 }
