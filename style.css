@@ -9,11 +9,10 @@ body {
     flex-direction: column;
 }
 
-.top {
+.top-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #295e34;
-    padding: 0 300px;
 }
 
 .header {
@@ -28,7 +27,6 @@ body {
 
 .header .logo {
     font-size: 24px;
-    flex: 0 0 600px;
 }
 
 .header .links {
@@ -51,13 +49,13 @@ body {
 .hero {
     display: flex;
     padding: 100px 0;
-    gap: 100px;
 }
 
 .hero .hero-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 600px;
     gap: 10px;
 }
 
