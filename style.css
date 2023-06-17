@@ -83,17 +83,21 @@ body {
 
 .content {
     display: flex;
+    padding: 100px 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
     flex-direction: column;
-    padding: 100px 300px;
     gap: 100px;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .content .heading {
     color: #295e34;
     font-size: 36px;
     font-weight: bolder;
+    align-self: center;
 }
 
 .content-container {
