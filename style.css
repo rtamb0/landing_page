@@ -50,14 +50,13 @@ body {
     display: flex;
     padding: 100px 0;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .hero .hero-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 900px;
+    max-width: 400px;
     gap: 10px;
 }
 
